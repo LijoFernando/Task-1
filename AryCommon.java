@@ -8,11 +8,12 @@ public class AryCommon {
 
     Scanner scr=new Scanner(System.in);
     //Find common Element between two String Array
-    void commonString(){
-        System.out.println("Compare Between two String Array ");
-        System.out.println("Enter size of Array : ");
-        int arysize = scr.nextInt();
+    void commonString() {
 
+        System.out.println ("Compare Between two String Array ");
+        System.out.println ("Enter size of Array : ");
+
+        int arysize = scr.nextInt();
 
         ArrayList<String> arylist1 = new ArrayList<>();
         ArrayList<String> arylist2 = new ArrayList<>();
@@ -21,7 +22,7 @@ public class AryCommon {
             arylist1.add(scr.next());
         }
         System.out.println("Enter the SecondArray Elements: ");
-        for(int i=0; i<arysize; i++){
+        for (int i=0; i<arysize; i++){
             arylist2.add(scr.next());
         }
 
